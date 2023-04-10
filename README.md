@@ -11,7 +11,7 @@
     1. メニューバーの [ランタイム] - [ランタイムのタイプの変更] をクリック
      ![ランタイムのタイプの変更](https://docs.google.com/drawings/d/e/2PACX-1vTo2XkKxxwux9ATDbSPQI0PbJHMYzTJPKwUcUtIj8UwlT_h4sFm9vJtdjusib3p0nNX-j7lYX0EyWu1/pub?w=601&h=545)
 
-    1. ハードウェア アクセラレータ で `GUP` を設定する
+    1. ハードウェア アクセラレータ で `GPU` を設定する
     ![ランタイムのタイプの変更](https://docs.google.com/drawings/d/e/2PACX-1vQL7egTWuLu9NOLb5-Z1uZCwIa9dMKraLhn6T6B3KO0_GdYhawWdOyKQaE0SlBDZ0gDr1xAUp0aCPAQ/pub?w=644&h=340)
 
 1. 音声データの追加
