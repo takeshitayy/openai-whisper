@@ -9,13 +9,17 @@
 1. [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/takeshitayy/openai-whisper/blob/main/openai_whisper.ipynb) をクリックして、Google Colaboratory で開く
 1. ランタイムの設定
     1. メニューバーの [ランタイム] - [ランタイムのタイプの変更] をクリック
-    1. ハードウェア アクセラレータ で GUP を設定する
+     ![ランタイムのタイプの変更](https://docs.google.com/drawings/d/e/2PACX-1vTo2XkKxxwux9ATDbSPQI0PbJHMYzTJPKwUcUtIj8UwlT_h4sFm9vJtdjusib3p0nNX-j7lYX0EyWu1/pub?w=601&h=545)
+
+    1. ハードウェア アクセラレータ で `GUP` を設定する
+    ![ランタイムのタイプの変更](https://docs.google.com/drawings/d/e/2PACX-1vQL7egTWuLu9NOLb5-Z1uZCwIa9dMKraLhn6T6B3KO0_GdYhawWdOyKQaE0SlBDZ0gDr1xAUp0aCPAQ/pub?w=644&h=340)
+
 1. 音声データの準備
-    1. 📁アイコンをクリックしてファイルの一覧を表示
-    1. テキストを抽出したい 音声データ を drag & drop で追加
-    1. 追加した 音声データ を右クリックして パスをコピー でファイルの絶対パスをコピーする
-    1. `audioPath`: 音声データ の絶対パスをセット
+    1. サイドバーの 📁アイコン をクリックしてファイルの一覧を表示し、テキストを抽出したい 音声データ を drag & drop で追加
+    ![音声データの追加](https://docs.google.com/drawings/d/e/2PACX-1vQU_evi3lR57aAgoRfJhAr5FYpGBf10uA85v8Dx25rE-HMAauXwX1ON0o9KcBVyXvUjqR4H8_rMadCM/pub?w=525&h=307)
+    1. 追加した 音声データ を右クリックして `パスをコピー` でファイルの絶対パスをコピーする
+    1. 変数 `audioPath` に音声データの絶対パスをセット
 1. そのほか設定
-    1. `outputCsvName`: 出力するcsvのファイル名をセット
-    1. `model`: whisper のモデルを選択する
-1. Ctrl + F9 ですべてのセルを実行する
+    1. 変数 `outputCsvName` に出力するcsvのファイル名をセット
+    1. 変数 `model`で 使用する whisper のモデルを選択する
+1. `Ctrl + F9` ですべてのセルを実行すると
